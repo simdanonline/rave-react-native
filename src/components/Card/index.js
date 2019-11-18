@@ -805,9 +805,14 @@ export default class index extends Component {
     }
 
     let web = (
+      <View>
+    
+        <Text>Redirecting To Your Bank's page For Authorization...</Text>  
+     
       <ScrollView
       contentContainerStyle={{ paddingBottom: 50}}
       >
+
       <WebView
         source={{ uri: this.state.vbvurl }}
         style={{ height: height, width, resizeMode: 'cover', flex: 1 }}
@@ -818,13 +823,18 @@ export default class index extends Component {
         scrollEnabled={true}
       />
       </ScrollView>
+      </View>
     );
 
     if (Platform.OS === "ios") {
       web = (
+        <View>
+           <Text>Redirecting To Your Bank's page For Authorization...</Text>  
+        
         <ScrollView
         contentContainerStyle={{ paddingBottom: 50}}
         >
+            
              <WebView
           source={{ uri: this.state.vbvurl }}
           useWebKit={true}
@@ -836,6 +846,7 @@ export default class index extends Component {
           scrollEnabled={true}
         />
         </ScrollView>
+        </View>
        
       );
     }
