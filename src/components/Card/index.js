@@ -238,7 +238,7 @@ export default class index extends Component {
           });
           Alert.alert(
             "",
-            "Transaction is " + res.data.chargeResponseMessage,
+            "Transaction failed due to insufficient balance or wrong card pin. Please Retry"
             [
               {
                 text: "Ok",
