@@ -88,7 +88,9 @@ export default class index extends Component {
         cardno: value.replace(/\s/g, "").replace(/[^0-9]/gi, "")
       });
     } else {
-      for (i = 0, len = match.length; i < len; i += 4) {
+      let i;
+      let len = match.length
+      for (i = 0; i < len; i += 4) {
         parts.push(match.substring(i, i + 4));
       }
       if (parts.length) {
