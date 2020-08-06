@@ -1,12 +1,12 @@
 {
   "name": "@simdan/react-native-rave",
   "main": "Rave.js",
-  "version": "2.2.5",
-  "author": "Oluwole Adebiyi, Tofunmi Kupoluyi, Yusuf Jolaoso, Anjola Bassey, Flutterwave Developers",
+  "version": "1.0.0",
+  "author": "Similoluwa Odeyemi, Simdan Online",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flutterwave/rave-react-native"
+    "url": "https://github.com/simdanonline/rave-react-native"
   },
   "dependencies": {
     "axios": "^0.18.0",
