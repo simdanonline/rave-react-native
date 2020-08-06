@@ -1,13 +1,15 @@
 {
-  "name": "@simdan/react-native-rave",
+  "name": "@simdanonline/react-native-rave",
   "main": "Rave.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Similoluwa Odeyemi, Simdan Online",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simdanonline/rave-react-native"
+    "url": "https://github.com/simdanonline/rave-react-native.git"
   },
+  "homepage": "https://github.com/simdanonline/rave-react-native",
+  "keywords": ["react-native-rave", "flutterwave"],
   "dependencies": {
     "axios": "^0.18.0",
     "card-validator": "^5.0.0",
