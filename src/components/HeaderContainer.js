@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
-import Header from './Header';
 
 export default class HeaderContainer extends Component {
   constructor(props) {

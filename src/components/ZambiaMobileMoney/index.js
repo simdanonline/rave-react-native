@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, Alert, TextInput, ActivityIndicator, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
-import { Picker, DatePicker } from "native-base";
 //Scrollable view Library
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 

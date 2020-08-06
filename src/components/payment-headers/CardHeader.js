@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { StyleSheet, View, Text, TouchableOpacity, Image } from 'react-native';
 import { Icon } from 'react-native-elements'
-// import Header from 'react-native-rave/src/components/Header';
 
 export default class CardHeader extends Component {
   constructor(props) {

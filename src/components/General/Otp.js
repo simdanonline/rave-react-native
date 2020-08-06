@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { StyleSheet, Modal, Text, Image, TextInput, TouchableOpacity, View } from 'react-native';
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
 export default class OtpModal extends Component {
   constructor(props) {

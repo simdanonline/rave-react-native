@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   KeyboardAvoidingView
 } from "react-native";
-import { Picker, DatePicker } from "native-base";
+import { Picker } from "native-base";
 //Scrollable view Library
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 
