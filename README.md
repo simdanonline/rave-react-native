@@ -98,6 +98,7 @@ You can pull in @simdanonline/react-native-rave into app with the steps below:
 
   Next use any of the payment options by following the processes  [below](#payment-options).
 
+  >react-native-webview is a peer dependency, so please ensure to install in your project
 
 ## Payment Options
 
